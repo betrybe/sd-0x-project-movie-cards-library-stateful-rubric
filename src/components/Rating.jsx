@@ -12,6 +12,8 @@ class Rating extends React.Component {
   }
 }
 
-Rating.propTypes = { rating: PropTypes.oneOfType([PropTypes.string, PropTypes.number]) };
+Rating.propTypes = {
+  rating: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+};
 
 export default Rating;
