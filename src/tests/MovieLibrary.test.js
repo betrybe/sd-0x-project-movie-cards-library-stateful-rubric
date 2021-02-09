@@ -3,7 +3,7 @@ import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import event from '@testing-library/user-event';
 
-import MovieLibrary from './MovieLibrary';
+import MovieLibrary from '../components/MovieLibrary';
 
 const movies = [
   {

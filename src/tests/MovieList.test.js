@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
-import MovieList from './MovieList';
+import MovieList from '../components/MovieList';
 
 describe('Verifica o componente <MovieList />', () => {
   const movies = [

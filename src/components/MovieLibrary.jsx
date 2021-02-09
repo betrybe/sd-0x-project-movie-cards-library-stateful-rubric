@@ -54,7 +54,6 @@ class MovieLibrary extends React.Component {
       film = film.filter((check) => check.bookmarked);
     }
     if (selectedGenre) {
-      console.log(selectedGenre);
       film = film.filter((genre) => genre.genre === selectedGenre);
     }
     return film;
